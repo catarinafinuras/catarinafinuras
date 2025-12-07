@@ -26,8 +26,8 @@ I am a Master's student at **Instituto Superior Técnico** (Lisbon) specializing
 
 | Project | Description | Tech |
 | :--- | :--- | :--- |
-| **[Emotion Facial Recognition](https://github.com/catarinafinuras/Emotion-Facial-Recognition)** | A CNN-based model classifying 7 distinct human emotions with high accuracy. | ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white) |
-| **[Human Activity Recognition](https://github.com/catarinafinuras/Human-Activity-Recognition)** | Time-series classification model detecting physical activities from sensor data. | ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) |
+| **[Emotion Facial Recognition](https://github.com/catarinafinuras/Emotion-Facial-Recognition)** | **Accuracy: 48.6%** (FER2013). Developed a real-time non-deep-learning pipeline using **HOG+LBP** feature fusion and an **MLP classifier**. Implemented live webcam inference using **OpenCV**, handling severe class imbalance via custom sample weighting. | ![PyTorch](https://img.shields.io/badge/-PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white) ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white) |
+| **[Human Activity Recognition](https://github.com/catarinafinuras/Human-Activity-Recognition)** | **Accuracy: ~98%**. Built a supervised learning system (Logistic Regression) to classify 5 physical activities from accelerometer/gyroscope data. Engineered features using **sliding windows**, **FFT spectral analysis**, and **ANOVA** selection. | ![Pandas](https://img.shields.io/badge/-Pandas-150458?style=flat-square&logo=pandas&logoColor=white) ![Scikit-Learn](https://img.shields.io/badge/-Scikit_Learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white) |
 
 ---
 
